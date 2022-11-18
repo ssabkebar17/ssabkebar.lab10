@@ -15,10 +15,10 @@ let array =[
      for(let key in array){
           array[key].toString()
      }
-})()
+})();
 
-console.log(".........Question 2....")
+console.log(".........Question 2....");
 (function(){
-     let emp1 = new Employee("Jim Hanson",null, 245990.00,null);
+     let emp1 = new Employee("Jim Hanson",new Date(1990,3,12), 245990.00,null);
      emp1.toString()
 })()

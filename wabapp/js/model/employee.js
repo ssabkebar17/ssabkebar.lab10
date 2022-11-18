@@ -1,6 +1,6 @@
 "use strict";
 
-import { Person } from "./person";
+import { Person } from "./person.js";
 
 export class  Employee extends Person{
      constructor(name, dateOfBirth,salary, hireDate){
