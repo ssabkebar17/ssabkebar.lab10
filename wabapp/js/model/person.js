@@ -1,7 +1,7 @@
 /**
  * person.js
  */
-"use strict"
+"use strict";
  export class Person{
      name="";
      dateOfBirth=null;
@@ -25,7 +25,7 @@ this.name =value;
      toString=()=>{
           let birthdate =this.dateOfBirth;
           let year = birthdate.getFullYear();
-          let month = birthdate.getMonth();
+          let month = birthdate.getMonth()+1;
           let date = birthdate.getDate();
          console.log(`{Name: ${this.name}, DateOfBirth: ${year} -${month} -${date} }`)
      }
