@@ -21,7 +21,7 @@ this.#salary = value;
           return this.#hireDate;
      }
      doJob(jobTitle){
-          console.log(`${this.name} is a ${jobTitle} who earns $${this.#salary}}`  )
+          console.log(`${this.name} is a ${jobTitle} who earns $${this.#salary}`  )
      }
      
 #salary =0;

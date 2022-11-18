@@ -19,6 +19,6 @@ let array =[
 
 console.log(".........Question 2....");
 (function(){
-     let emp1 = new Employee("Jim Hanson",new Date(1990,3,12), 245990.00,null);
-     emp1.toString()
+     let emp1 = new Employee("Jim Hanson",null, 245990.00,null);
+     emp1.doJob("programmer")
 })()

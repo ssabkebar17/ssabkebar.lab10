@@ -27,7 +27,7 @@ this.name =value;
           let year = birthdate.getFullYear();
           let month = birthdate.getMonth()+1;
           let date = birthdate.getDate();
-         console.log(`{Name: ${this.name}, DateOfBirth: ${year} -${month} -${date} }`)
+         console.log(`Name: ${this.name}, DateOfBirth: ${year} -${month} -${date} `)
      }
 
 }
