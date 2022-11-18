@@ -5,7 +5,7 @@
 
 import { Person } from "./model/person.js";
 import{Employee} from "./model/employee.js";
- 
+console.log(".........Question 1.........");
 (function(){
 let array =[
      new Person("Anna Smith" ,new Date(1998,12,15)),
